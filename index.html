@@ -62,6 +62,12 @@ header p {
     border-radius: 10px;
     padding: 15px;
     text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .card img {
@@ -73,6 +79,26 @@ header p {
 
 .card h3 {
     color: #c40000;
+}
+
+/* NEW CSS FOR LINKS */
+.store-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.store-link:hover {
+    background: #ffd700;
+    color: #000;
+    border-color: #ffd700;
+    font-weight: bold;
 }
 
 footer {
@@ -99,318 +125,318 @@ footer {
 <section class="platforms">
 
 <div class="card">
-<img src="images/iphone.jpg" alt="iPhone 14">
+<img src="../iphone.jpg" alt="iPhone 14">
 <h3>iPhone 14</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹69,999</p>
-<p>Flipkart: ₹68,499</p>
-<p>Reliance: ₹69,200</p>
+<a href="https://www.amazon.in/s?k=iPhone+14" target="_blank" class="store-link">Amazon: ₹69,999</a>
+<a href="https://www.flipkart.com/search?q=iPhone+14" target="_blank" class="store-link">Flipkart: ₹68,499</a>
+<a href="https://www.reliancedigital.in/search?q=iPhone+14:relevance" target="_blank" class="store-link">Reliance: ₹69,200</a>
 </div>
 
 <div class="card">
 <img src="images/samsung.jpg" alt="Samsung Galaxy S23">
 <h3>Samsung Galaxy S23</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹74,999</p>
-<p>Flipkart: ₹73,499</p>
-<p>Reliance: ₹74,200</p>
+<a href="https://www.amazon.in/s?k=Samsung+Galaxy+S23" target="_blank" class="store-link">Amazon: ₹74,999</a>
+<a href="https://www.flipkart.com/search?q=Samsung+Galaxy+S23" target="_blank" class="store-link">Flipkart: ₹73,499</a>
+<a href="https://www.reliancedigital.in/search?q=Samsung+Galaxy+S23:relevance" target="_blank" class="store-link">Reliance: ₹74,200</a>
 </div>
 
 <div class="card">
 <img src="images/oneplus.jpg" alt="OnePlus 11">
 <h3>OnePlus 11</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹61,999</p>
-<p>Flipkart: ₹60,499</p>
-<p>Reliance: ₹61,200</p>
+<a href="https://www.amazon.in/s?k=OnePlus+11" target="_blank" class="store-link">Amazon: ₹61,999</a>
+<a href="https://www.flipkart.com/search?q=OnePlus+11" target="_blank" class="store-link">Flipkart: ₹60,499</a>
+<a href="https://www.reliancedigital.in/search?q=OnePlus+11:relevance" target="_blank" class="store-link">Reliance: ₹61,200</a>
 </div>
 
 <div class="card">
 <img src="images/redmi.jpg" alt="Redmi Note 12">
 <h3>Redmi Note 12</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹14,999</p>
-<p>Flipkart: ₹13,999</p>
-<p>Reliance: ₹14,499</p>
+<a href="https://www.amazon.in/s?k=Redmi+Note+12" target="_blank" class="store-link">Amazon: ₹14,999</a>
+<a href="https://www.flipkart.com/search?q=Redmi+Note+12" target="_blank" class="store-link">Flipkart: ₹13,999</a>
+<a href="https://www.reliancedigital.in/search?q=Redmi+Note+12:relevance" target="_blank" class="store-link">Reliance: ₹14,499</a>
 </div>
 
 <div class="card">
 <img src="images/realme.jpg" alt="Realme Narzo">
 <h3>Realme Narzo</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹12,499</p>
-<p>Flipkart: ₹11,999</p>
-<p>Reliance: ₹12,199</p>
+<a href="https://www.amazon.in/s?k=Realme+Narzo" target="_blank" class="store-link">Amazon: ₹12,499</a>
+<a href="https://www.flipkart.com/search?q=Realme+Narzo" target="_blank" class="store-link">Flipkart: ₹11,999</a>
+<a href="https://www.reliancedigital.in/search?q=Realme+Narzo:relevance" target="_blank" class="store-link">Reliance: ₹12,199</a>
 </div>
 
 <div class="card">
 <img src="images/dell.jpg" alt="Dell Inspiron">
 <h3>Dell Inspiron</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹54,999</p>
-<p>Flipkart: ₹53,499</p>
-<p>Reliance: ₹54,200</p>
+<a href="https://www.amazon.in/s?k=Dell+Inspiron" target="_blank" class="store-link">Amazon: ₹54,999</a>
+<a href="https://www.flipkart.com/search?q=Dell+Inspiron" target="_blank" class="store-link">Flipkart: ₹53,499</a>
+<a href="https://www.reliancedigital.in/search?q=Dell+Inspiron:relevance" target="_blank" class="store-link">Reliance: ₹54,200</a>
 </div>
 
 <div class="card">
 <img src="images/hp.jpg" alt="HP Pavilion">
 <h3>HP Pavilion</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹59,999</p>
-<p>Flipkart: ₹58,499</p>
-<p>Reliance: ₹59,200</p>
+<a href="https://www.amazon.in/s?k=HP+Pavilion" target="_blank" class="store-link">Amazon: ₹59,999</a>
+<a href="https://www.flipkart.com/search?q=HP+Pavilion" target="_blank" class="store-link">Flipkart: ₹58,499</a>
+<a href="https://www.reliancedigital.in/search?q=HP+Pavilion:relevance" target="_blank" class="store-link">Reliance: ₹59,200</a>
 </div>
 
 <div class="card">
 <img src="images/lenovo.jpg" alt="Lenovo IdeaPad">
 <h3>Lenovo IdeaPad</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹47,999</p>
-<p>Flipkart: ₹46,999</p>
-<p>Reliance: ₹47,500</p>
+<a href="https://www.amazon.in/s?k=Lenovo+IdeaPad" target="_blank" class="store-link">Amazon: ₹47,999</a>
+<a href="https://www.flipkart.com/search?q=Lenovo+IdeaPad" target="_blank" class="store-link">Flipkart: ₹46,999</a>
+<a href="https://www.reliancedigital.in/search?q=Lenovo+IdeaPad:relevance" target="_blank" class="store-link">Reliance: ₹47,500</a>
 </div>
 
 <div class="card">
 <img src="images/macbook.jpg" alt="MacBook Air M1">
 <h3>MacBook Air M1</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹82,999</p>
-<p>Flipkart: ₹81,499</p>
-<p>Reliance: ₹82,200</p>
+<a href="https://www.amazon.in/s?k=MacBook+Air+M1" target="_blank" class="store-link">Amazon: ₹82,999</a>
+<a href="https://www.flipkart.com/search?q=MacBook+Air+M1" target="_blank" class="store-link">Flipkart: ₹81,499</a>
+<a href="https://www.reliancedigital.in/search?q=MacBook+Air+M1:relevance" target="_blank" class="store-link">Reliance: ₹82,200</a>
 </div>
 
 <div class="card">
 <img src="images/asus.jpg" alt="Asus VivoBook">
 <h3>Asus VivoBook</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹49,999</p>
-<p>Flipkart: ₹48,499</p>
-<p>Reliance: ₹49,200</p>
+<a href="https://www.amazon.in/s?k=Asus+VivoBook" target="_blank" class="store-link">Amazon: ₹49,999</a>
+<a href="https://www.flipkart.com/search?q=Asus+VivoBook" target="_blank" class="store-link">Flipkart: ₹48,499</a>
+<a href="https://www.reliancedigital.in/search?q=Asus+VivoBook:relevance" target="_blank" class="store-link">Reliance: ₹49,200</a>
 </div>
 
 <div class="card">
 <img src="images/samsungtv.jpg" alt="Samsung Smart TV">
 <h3>Samsung Smart TV</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹38,999</p>
-<p>Flipkart: ₹37,499</p>
-<p>Reliance: ₹38,200</p>
+<a href="https://www.amazon.in/s?k=Samsung+Smart+TV" target="_blank" class="store-link">Amazon: ₹38,999</a>
+<a href="https://www.flipkart.com/search?q=Samsung+Smart+TV" target="_blank" class="store-link">Flipkart: ₹37,499</a>
+<a href="https://www.reliancedigital.in/search?q=Samsung+Smart+TV:relevance" target="_blank" class="store-link">Reliance: ₹38,200</a>
 </div>
 
 <div class="card">
 <img src="images/lg.jpg" alt="LG LED TV">
 <h3>LG LED TV</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹42,999</p>
-<p>Flipkart: ₹41,999</p>
-<p>Reliance: ₹42,200</p>
+<a href="https://www.amazon.in/s?k=LG+LED+TV" target="_blank" class="store-link">Amazon: ₹42,999</a>
+<a href="https://www.flipkart.com/search?q=LG+LED+TV" target="_blank" class="store-link">Flipkart: ₹41,999</a>
+<a href="https://www.reliancedigital.in/search?q=LG+LED+TV:relevance" target="_blank" class="store-link">Reliance: ₹42,200</a>
 </div>
 
 <div class="card">
 <img src="images/sony.jpg" alt="Sony Bravia">
 <h3>Sony Bravia</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹64,999</p>
-<p>Flipkart: ₹63,499</p>
-<p>Reliance: ₹64,200</p>
+<a href="https://www.amazon.in/s?k=Sony+Bravia" target="_blank" class="store-link">Amazon: ₹64,999</a>
+<a href="https://www.flipkart.com/search?q=Sony+Bravia" target="_blank" class="store-link">Flipkart: ₹63,499</a>
+<a href="https://www.reliancedigital.in/search?q=Sony+Bravia:relevance" target="_blank" class="store-link">Reliance: ₹64,200</a>
 </div>
 
 <div class="card">
 <img src="images/boat.jpg" alt="Boat Headphones">
 <h3>Boat Headphones</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹1,299</p>
-<p>Flipkart: ₹1,199</p>
-<p>Reliance: ₹1,249</p>
+<a href="https://www.amazon.in/s?k=Boat+Headphones" target="_blank" class="store-link">Amazon: ₹1,299</a>
+<a href="https://www.flipkart.com/search?q=Boat+Headphones" target="_blank" class="store-link">Flipkart: ₹1,199</a>
+<a href="https://www.reliancedigital.in/search?q=Boat+Headphones:relevance" target="_blank" class="store-link">Reliance: ₹1,249</a>
 </div>
 
 <div class="card">
 <img src="images/airpods.jpg" alt="Apple AirPods">
 <h3>Apple AirPods</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹19,999</p>
-<p>Flipkart: ₹18,999</p>
-<p>Reliance: ₹19,499</p>
+<a href="https://www.amazon.in/s?k=Apple+AirPods" target="_blank" class="store-link">Amazon: ₹19,999</a>
+<a href="https://www.flipkart.com/search?q=Apple+AirPods" target="_blank" class="store-link">Flipkart: ₹18,999</a>
+<a href="https://www.reliancedigital.in/search?q=Apple+AirPods:relevance" target="_blank" class="store-link">Reliance: ₹19,499</a>
 </div>
 
 <div class="card">
 <img src="images/pixel7.jpg" alt="Google Pixel 7">
 <h3>Google Pixel 7</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹49,999</p>
-<p>Flipkart: ₹48,999</p>
-<p>Reliance: ₹49,500</p>
+<a href="https://www.amazon.in/s?k=Google+Pixel+7" target="_blank" class="store-link">Amazon: ₹49,999</a>
+<a href="https://www.flipkart.com/search?q=Google+Pixel+7" target="_blank" class="store-link">Flipkart: ₹48,999</a>
+<a href="https://www.reliancedigital.in/search?q=Google+Pixel+7:relevance" target="_blank" class="store-link">Reliance: ₹49,500</a>
 </div>
 
 <div class="card">
 <img src="images/nothingphone.jpg" alt="Nothing Phone (2)">
 <h3>Nothing Phone (2)</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹39,999</p>
-<p>Flipkart: ₹38,500</p>
-<p>Reliance: ₹39,000</p>
+<a href="https://www.amazon.in/s?k=Nothing+Phone+2" target="_blank" class="store-link">Amazon: ₹39,999</a>
+<a href="https://www.flipkart.com/search?q=Nothing+Phone+2" target="_blank" class="store-link">Flipkart: ₹38,500</a>
+<a href="https://www.reliancedigital.in/search?q=Nothing+Phone+2:relevance" target="_blank" class="store-link">Reliance: ₹39,000</a>
 </div>
 
 <div class="card">
 <img src="images/ipad.jpg" alt="iPad Air 5th Gen">
 <h3>iPad Air 5th Gen</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹54,900</p>
-<p>Flipkart: ₹53,900</p>
-<p>Reliance: ₹54,500</p>
+<a href="https://www.amazon.in/s?k=iPad+Air+5th+Gen" target="_blank" class="store-link">Amazon: ₹54,900</a>
+<a href="https://www.flipkart.com/search?q=iPad+Air+5th+Gen" target="_blank" class="store-link">Flipkart: ₹53,900</a>
+<a href="https://www.reliancedigital.in/search?q=iPad+Air+5th+Gen:relevance" target="_blank" class="store-link">Reliance: ₹54,500</a>
 </div>
 
 <div class="card">
 <img src="images/tabs8.jpg" alt="Samsung Tab S8">
 <h3>Samsung Tab S8</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹50,999</p>
-<p>Flipkart: ₹49,999</p>
-<p>Reliance: ₹50,500</p>
+<a href="https://www.amazon.in/s?k=Samsung+Tab+S8" target="_blank" class="store-link">Amazon: ₹50,999</a>
+<a href="https://www.flipkart.com/search?q=Samsung+Tab+S8" target="_blank" class="store-link">Flipkart: ₹49,999</a>
+<a href="https://www.reliancedigital.in/search?q=Samsung+Tab+S8:relevance" target="_blank" class="store-link">Reliance: ₹50,500</a>
 </div>
 
 <div class="card">
 <img src="images/ps5.jpg" alt="Sony PlayStation 5">
 <h3>Sony PlayStation 5</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹49,990</p>
-<p>Flipkart: ₹48,990</p>
-<p>Reliance: ₹49,500</p>
+<a href="https://www.amazon.in/s?k=Sony+PlayStation+5" target="_blank" class="store-link">Amazon: ₹49,990</a>
+<a href="https://www.flipkart.com/search?q=Sony+PlayStation+5" target="_blank" class="store-link">Flipkart: ₹48,990</a>
+<a href="https://www.reliancedigital.in/search?q=Sony+PlayStation+5:relevance" target="_blank" class="store-link">Reliance: ₹49,500</a>
 </div>
 
 <div class="card">
 <img src="images/xbox.jpg" alt="Xbox Series X">
 <h3>Xbox Series X</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹48,990</p>
-<p>Flipkart: ₹47,990</p>
-<p>Reliance: ₹48,500</p>
+<a href="https://www.amazon.in/s?k=Xbox+Series+X" target="_blank" class="store-link">Amazon: ₹48,990</a>
+<a href="https://www.flipkart.com/search?q=Xbox+Series+X" target="_blank" class="store-link">Flipkart: ₹47,990</a>
+<a href="https://www.reliancedigital.in/search?q=Xbox+Series+X:relevance" target="_blank" class="store-link">Reliance: ₹48,500</a>
 </div>
 
 <div class="card">
 <img src="images/nintendo.jpg" alt="Nintendo Switch OLED">
 <h3>Nintendo Switch OLED</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹29,999</p>
-<p>Flipkart: ₹28,999</p>
-<p>Reliance: ₹29,500</p>
+<a href="https://www.amazon.in/s?k=Nintendo+Switch+OLED" target="_blank" class="store-link">Amazon: ₹29,999</a>
+<a href="https://www.flipkart.com/search?q=Nintendo+Switch+OLED" target="_blank" class="store-link">Flipkart: ₹28,999</a>
+<a href="https://www.reliancedigital.in/search?q=Nintendo+Switch+OLED:relevance" target="_blank" class="store-link">Reliance: ₹29,500</a>
 </div>
 
 <div class="card">
 <img src="images/gopro.jpg" alt="GoPro Hero 11">
 <h3>GoPro Hero 11</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹37,999</p>
-<p>Flipkart: ₹36,999</p>
-<p>Reliance: ₹37,500</p>
+<a href="https://www.amazon.in/s?k=GoPro+Hero+11" target="_blank" class="store-link">Amazon: ₹37,999</a>
+<a href="https://www.flipkart.com/search?q=GoPro+Hero+11" target="_blank" class="store-link">Flipkart: ₹36,999</a>
+<a href="https://www.reliancedigital.in/search?q=GoPro+Hero+11:relevance" target="_blank" class="store-link">Reliance: ₹37,500</a>
 </div>
 
 <div class="card">
 <img src="images/dslr.jpg" alt="Canon EOS 1500D">
 <h3>Canon EOS 1500D</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹41,999</p>
-<p>Flipkart: ₹40,999</p>
-<p>Reliance: ₹41,500</p>
+<a href="https://www.amazon.in/s?k=Canon+EOS+1500D" target="_blank" class="store-link">Amazon: ₹41,999</a>
+<a href="https://www.flipkart.com/search?q=Canon+EOS+1500D" target="_blank" class="store-link">Flipkart: ₹40,999</a>
+<a href="https://www.reliancedigital.in/search?q=Canon+EOS+1500D:relevance" target="_blank" class="store-link">Reliance: ₹41,500</a>
 </div>
 
 <div class="card">
 <img src="images/jbl.jpg" alt="JBL Flip 6">
 <h3>JBL Flip 6 Speaker</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹9,999</p>
-<p>Flipkart: ₹8,999</p>
-<p>Reliance: ₹9,499</p>
+<a href="https://www.amazon.in/s?k=JBL+Flip+6" target="_blank" class="store-link">Amazon: ₹9,999</a>
+<a href="https://www.flipkart.com/search?q=JBL+Flip+6" target="_blank" class="store-link">Flipkart: ₹8,999</a>
+<a href="https://www.reliancedigital.in/search?q=JBL+Flip+6:relevance" target="_blank" class="store-link">Reliance: ₹9,499</a>
 </div>
 
 <div class="card">
 <img src="images/fitbit.jpg" alt="Fitbit Versa 4">
 <h3>Fitbit Versa 4</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹18,999</p>
-<p>Flipkart: ₹17,999</p>
-<p>Reliance: ₹18,500</p>
+<a href="https://www.amazon.in/s?k=Fitbit+Versa+4" target="_blank" class="store-link">Amazon: ₹18,999</a>
+<a href="https://www.flipkart.com/search?q=Fitbit+Versa+4" target="_blank" class="store-link">Flipkart: ₹17,999</a>
+<a href="https://www.reliancedigital.in/search?q=Fitbit+Versa+4:relevance" target="_blank" class="store-link">Reliance: ₹18,500</a>
 </div>
 
 <div class="card">
 <img src="images/watch8.jpg" alt="Apple Watch S8">
 <h3>Apple Watch S8</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹42,900</p>
-<p>Flipkart: ₹41,900</p>
-<p>Reliance: ₹42,500</p>
+<a href="https://www.amazon.in/s?k=Apple+Watch+S8" target="_blank" class="store-link">Amazon: ₹42,900</a>
+<a href="https://www.flipkart.com/search?q=Apple+Watch+S8" target="_blank" class="store-link">Flipkart: ₹41,900</a>
+<a href="https://www.reliancedigital.in/search?q=Apple+Watch+S8:relevance" target="_blank" class="store-link">Reliance: ₹42,500</a>
 </div>
 
 <div class="card">
 <img src="images/galaxywatch.jpg" alt="Samsung Galaxy Watch 5">
 <h3>Samsung Galaxy Watch 5</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹24,999</p>
-<p>Flipkart: ₹23,999</p>
-<p>Reliance: ₹24,500</p>
+<a href="https://www.amazon.in/s?k=Samsung+Galaxy+Watch+5" target="_blank" class="store-link">Amazon: ₹24,999</a>
+<a href="https://www.flipkart.com/search?q=Samsung+Galaxy+Watch+5" target="_blank" class="store-link">Flipkart: ₹23,999</a>
+<a href="https://www.reliancedigital.in/search?q=Samsung+Galaxy+Watch+5:relevance" target="_blank" class="store-link">Reliance: ₹24,500</a>
 </div>
 
 <div class="card">
 <img src="images/mxmaster.jpg" alt="Logitech MX Master 3S">
 <h3>Logitech MX Master 3S</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹9,499</p>
-<p>Flipkart: ₹8,999</p>
-<p>Reliance: ₹9,200</p>
+<a href="https://www.amazon.in/s?k=Logitech+MX+Master+3S" target="_blank" class="store-link">Amazon: ₹9,499</a>
+<a href="https://www.flipkart.com/search?q=Logitech+MX+Master+3S" target="_blank" class="store-link">Flipkart: ₹8,999</a>
+<a href="https://www.reliancedigital.in/search?q=Logitech+MX+Master+3S:relevance" target="_blank" class="store-link">Reliance: ₹9,200</a>
 </div>
 
 <div class="card">
 <img src="images/keyboard.jpg" alt="Keychron K2 V2">
 <h3>Keychron K2 V2</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹8,499</p>
-<p>Flipkart: ₹7,999</p>
-<p>Reliance: ₹8,200</p>
+<a href="https://www.amazon.in/s?k=Keychron+K2+V2" target="_blank" class="store-link">Amazon: ₹8,499</a>
+<a href="https://www.flipkart.com/search?q=Keychron+K2+V2" target="_blank" class="store-link">Flipkart: ₹7,999</a>
+<a href="https://www.reliancedigital.in/search?q=Keychron+K2+V2:relevance" target="_blank" class="store-link">Reliance: ₹8,200</a>
 </div>
 
 <div class="card">
 <img src="images/echo.jpg" alt="Amazon Echo Dot 5">
 <h3>Amazon Echo Dot 5</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹4,499</p>
-<p>Flipkart: ₹4,299</p>
-<p>Reliance: ₹4,399</p>
+<a href="https://www.amazon.in/s?k=Amazon+Echo+Dot+5" target="_blank" class="store-link">Amazon: ₹4,499</a>
+<a href="https://www.flipkart.com/search?q=Amazon+Echo+Dot+5" target="_blank" class="store-link">Flipkart: ₹4,299</a>
+<a href="https://www.reliancedigital.in/search?q=Amazon+Echo+Dot+5:relevance" target="_blank" class="store-link">Reliance: ₹4,399</a>
 </div>
 
 <div class="card">
 <img src="images/powerbank.jpg" alt="Mi Power Bank 3i">
 <h3>Mi Power Bank 3i</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹1,999</p>
-<p>Flipkart: ₹1,899</p>
-<p>Reliance: ₹1,950</p>
+<a href="https://www.amazon.in/s?k=Mi+Power+Bank+3i" target="_blank" class="store-link">Amazon: ₹1,999</a>
+<a href="https://www.flipkart.com/search?q=Mi+Power+Bank+3i" target="_blank" class="store-link">Flipkart: ₹1,899</a>
+<a href="https://www.reliancedigital.in/search?q=Mi+Power+Bank+3i:relevance" target="_blank" class="store-link">Reliance: ₹1,950</a>
 </div>
 
 <div class="card">
 <img src="images/hdd.jpg" alt="Seagate 2TB HDD">
 <h3>Seagate 2TB HDD</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹5,499</p>
-<p>Flipkart: ₹5,299</p>
-<p>Reliance: ₹5,399</p>
+<a href="https://www.amazon.in/s?k=Seagate+2TB+HDD" target="_blank" class="store-link">Amazon: ₹5,499</a>
+<a href="https://www.flipkart.com/search?q=Seagate+2TB+HDD" target="_blank" class="store-link">Flipkart: ₹5,299</a>
+<a href="https://www.reliancedigital.in/search?q=Seagate+2TB+HDD:relevance" target="_blank" class="store-link">Reliance: ₹5,399</a>
 </div>
 
 <div class="card">
 <img src="images/ssd.jpg" alt="WD Blue 1TB SSD">
 <h3>WD Blue 1TB SSD</h3>
 <p>⭐⭐⭐⭐☆</p>
-<p>Amazon: ₹6,499</p>
-<p>Flipkart: ₹6,199</p>
-<p>Reliance: ₹6,300</p>
+<a href="https://www.amazon.in/s?k=WD+Blue+1TB+SSD" target="_blank" class="store-link">Amazon: ₹6,499</a>
+<a href="https://www.flipkart.com/search?q=WD+Blue+1TB+SSD" target="_blank" class="store-link">Flipkart: ₹6,199</a>
+<a href="https://www.reliancedigital.in/search?q=WD+Blue+1TB+SSD:relevance" target="_blank" class="store-link">Reliance: ₹6,300</a>
 </div>
 
 <div class="card">
 <img src="images/monitor.jpg" alt="LG UltraGear Monitor">
 <h3>LG UltraGear Monitor</h3>
 <p>⭐⭐⭐⭐⭐</p>
-<p>Amazon: ₹22,999</p>
-<p>Flipkart: ₹21,999</p>
-<p>Reliance: ₹22,500</p>
+<a href="https://www.amazon.in/s?k=LG+UltraGear+Monitor" target="_blank" class="store-link">Amazon: ₹22,999</a>
+<a href="https://www.flipkart.com/search?q=LG+UltraGear+Monitor" target="_blank" class="store-link">Flipkart: ₹21,999</a>
+<a href="https://www.reliancedigital.in/search?q=LG+UltraGear+Monitor:relevance" target="_blank" class="store-link">Reliance: ₹22,500</a>
 </div>
 
 </section>
